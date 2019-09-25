@@ -1,30 +1,29 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 header {
   height: 151px;
   background: url(../img/header_bg.gif) no-repeat center top/ cover;
-  width: 100% auto;
 }
 .container {
   background-color: rgb(209, 209, 209);
   padding: 60px 60px 30px 60px;
   width: 760px;
-  margin: 0 auto;
-  font-size: 16px;
+  font-size: 22px;
   color: black;
   font-weight: 500;
 }
-.main-wrap {
+
+.wrap {
   background-color: rgb(255, 255, 255);
-  width: 650px;
-  margin: 0 auto;
   padding: 60px 50px 30px 50px;
 }
-.img-set-1 a,
-.img-set-2 a,
-.health-a {
+.info p {
+  margin-bottom: 40px;
+}
+.offer-btn a {
   display: block;
   height: 43px;
   background-color: rgb(219, 92, 75);
@@ -36,55 +35,45 @@ header {
   text-align: center;
   border-radius: 4px;
 }
-
-.friend {
-  margin: 60px 0 38px 0;
+span {
+  font-weight: bold;
 }
-.friend p {
-  margin-bottom: 38px;
-}
-.friend-title {
-  text-align: center;
-}
-.pfriend {
-  text-align: center;
-}
-.img-set-1 {
+.offer {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+ width: 160px;
+  
 }
-.img-set-1 p {
-  margin: 20px 0 44px 0;
-}
-.img-item-1 {
+.offer-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   width: 255px;
 }
-.img-item-2 {
-  width: 214px;
+
+.offer-text {
+  margin: 20px 0 20px 0;
 }
-.img-set-2 {
+.row {
   display: flex;
   justify-content: space-between;
-  margin-top: 33px;
-  width: 700px;
+  margin-bottom: 30px;
 }
-.img-set-2 a {
-  width: 160px;
-  margin: 24px 0 35px 0;
-}
-.img-set-2 p {
-  text-align: left;
-}
-.p2 {
-  margin: 20px 0 60px 0;
+.contact-text {
+  margin: 30px 0 60px 0;
 }
 footer {
   text-align: center;
+  margin: 50px 0 28px 0;
   color: white;
-}
-footer p {
-  margin: 50px 0 15px 0;
 }
 footer a {
   color: white;
+}
+footer p {
+  margin-bottom: 17px;
+}
+.contact-text p {
+  margin-bottom: 20px;
 }
