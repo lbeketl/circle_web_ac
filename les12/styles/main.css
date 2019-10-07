@@ -1,0 +1,95 @@
+* {
+  margin: 0 auto ;
+  padding: 0;
+  
+}
+.container {
+  max-width: 320px;
+}
+
+header {
+    background: url('../img/header.png') no-repeat center top/cover;
+    height: 55px;
+
+}
+header img{
+    width: 100%;
+}
+.main-wrap {
+  padding: 10px;
+
+}
+.main-wrap img {
+    width: 100%;
+}
+.info p {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.list {
+    max-width: 250px;;
+}
+.info {
+    padding:5px;
+}
+span {
+    font-weight: bold;
+}
+.btn{
+    display: block;
+    height: 43px;
+    background-color: rgb(219, 92, 75);
+    line-height: 43px;
+    
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+.offer-text {
+    margin: 7px 0;
+}
+.contact p{
+    margin: 7px 0;
+}
+footer {
+    padding: 10px;
+    background: #3a849b;
+}
+footer p {
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+}
+.icon {
+    background: url(http://freeicons.net.ru/wp-content/uploads/2013/05/%D1%8B%D1%83%D0%B5%D0%BA.jpg);
+    height: 50px;
+    border-radius: 4px;
+    
+   
+}
+.icons {
+    display: flex;
+    justify-content: center;	
+    padding: 0 100px;
+   
+}
+.vk {
+    background-position:bottom 127px left -79px;
+    width: 46px;
+    height: 46px;
+   
+    
+}
+.fb {
+    background-position:bottom 127px left -311px;
+    width: 46px;
+    height: 46px;
+   
+}
