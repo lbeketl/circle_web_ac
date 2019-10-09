@@ -4,20 +4,19 @@
   
 }
 .container {
-  max-width: 320px;
+    padding: 38px 10px 26px 10px;
+    background: #39839a;
+
 }
 
 header {
-    background: url('../img/header.png') no-repeat center top/cover;
-    height: 55px;
-
+    background: url('../img/header.png')no-repeat center top/cover ;
+    height:110px;
+    background-size: cover;
 }
-header img{
-    width: 100%;
-}
-.main-wrap {
+.main,.main-wrap {
   padding: 10px;
-
+  background: white;
 }
 .main-wrap img {
     width: 100%;
@@ -27,7 +26,7 @@ header img{
   text-align: left;
 }
 .list {
-    max-width: 250px;;
+    min-width: 250px;
 }
 .info {
     padding:5px;
@@ -39,8 +38,7 @@ span {
     display: block;
     height: 43px;
     background-color: rgb(219, 92, 75);
-    line-height: 43px;
-    
+    line-height: 43px;   
     font-weight: bold;
     text-align: center;
     border-radius: 4px;
@@ -49,8 +47,9 @@ span {
 .btn a {
     color: white;
     text-decoration: none;
-    cursor: pointer;
-   
+    display: block;
+    height: 100%;  
+}
 }
 .offer-text {
     margin: 7px 0;
@@ -71,8 +70,6 @@ footer p {
     background: url(http://freeicons.net.ru/wp-content/uploads/2013/05/%D1%8B%D1%83%D0%B5%D0%BA.jpg);
     height: 50px;
     border-radius: 4px;
-    
-   
 }
 .icons {
     display: flex;
@@ -83,13 +80,17 @@ footer p {
 .vk {
     background-position:bottom 127px left -79px;
     width: 46px;
-    height: 46px;
-   
-    
+    height: 46px; 
 }
 .fb {
     background-position:bottom 127px left -311px;
     width: 46px;
     height: 46px;
-   
+}
+@media only screen
+and (min-width: 768px) {
+	.row {
+        display: flex;
+        justify-content: space-between;
+    }
 }
