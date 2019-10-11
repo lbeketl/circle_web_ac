@@ -3,16 +3,14 @@
   padding: 0;
   
 }
-.container {
-    padding: 38px 10px 26px 10px;
-    background: #39839a;
-
+body {
+    font-size: 20px;
 }
 
 header {
     background: url('../img/header.png')no-repeat center top/cover ;
-    height:110px;
-    background-size: cover;
+    min-height:110px;
+    background-size: 100% 100%;
 }
 .main,.main-wrap {
   padding: 10px;
@@ -26,10 +24,11 @@ header {
   text-align: left;
 }
 .list {
-    min-width: 250px;
+    max-width: 250px;
 }
 .info {
     padding:5px;
+    margin-bottom: 20px;
 }
 span {
     font-weight: bold;
@@ -50,6 +49,8 @@ span {
     display: block;
     height: 100%;  
 }
+.offer-item {
+   max-width: 255px;
 }
 .offer-text {
     margin: 7px 0;
@@ -88,9 +89,35 @@ footer p {
     height: 46px;
 }
 @media only screen
-and (min-width: 768px) {
+and (min-width:650px) {
 	.row {
         display: flex;
         justify-content: space-between;
     }
+    .container {
+        padding: 38px 10px 26px 10px;
+        background: #39839a;
+    }
+   
+    body {
+        font-size: 16px;
+    }
 }
+@media only screen 
+   and (min-width : 1200px) {
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .container {
+        padding: 38px 10px 26px 10px;
+        background: #39839a;
+    }
+   
+    body {
+        font-size: 16px;
+    }
+    .offer-item {
+        max-width: 355px;
+    }
+    
