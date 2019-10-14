@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.burger img {
+  height: 393px;
+  width: 100%;
+}
+.container {
+  width: 1050px;
+  height: 530px;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(92, 59, 68, 1) 50%,
+    rgba(167, 118, 133, 1) 100%,
+    rgba(92, 59, 68, 1) 50%
+  );
+  padding: 22px 65px 48px 48px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(8, 8, 8, 0.9);
+}
+.row {
+  display: flex;
+  justify-content: center;
+  height: 393px;
+  width: 939px;
+}
+.price {
+  position: absolute;
+  width: 473px;
+  height: 250px;
+  background-color: black;
+  top: 120px;
+  left: 15px;
+  padding: 38px 54px 32px 54px;
+  text-align: center;
+}
+.price h1 {
+  font-size: 48px;
+}
+.price p {
+  font-size: 24px;
+  color: white;
+}
+.price span {
+  color: yellow;
+}
+
+main {
+  width: 612px;
+  background-color: white;
+  padding: 30px 65px;
+}
+. h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 48px;
+  text-align: center;
+}
+.right-col {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.offer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 300px;
+}
+.offer-item {
+  border-bottom: 1px solid grey;
+  padding: 5px;
+  position: relative;
+  margin: 0;
+  text-align: center;
+}
+.offer-item::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background-color: grey;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+}
+h5 {
+  font-size: 18px;
+  text-align: center;
+}
+p {
+  color: grey;
+}
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn a {
+  display: block;
+  height: 60px;
+  width: 175px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 60px;
+  margin-top: 15px;
+  text-align: center;
+  float: right;
+}
