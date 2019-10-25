@@ -1,0 +1,139 @@
+:root {
+    --maincolor:#023875;
+   }
+   h3{
+       font-size: 24px;
+       color: var(--maincolor);
+   }
+   p {
+       font-size: 16px;
+       color: #303030;
+       margin:10px 0;
+   }
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 960px;
+}
+.phone{
+    display: block;
+}
+img {
+    display: block;
+    width: 100%;
+}
+header,main,section{
+    padding: 10px 5px;
+}
+.logo-name{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: var(--maincolor);
+}
+header span{
+    color:#303030;
+    font-size: 13px;
+}
+.phone{
+    text-decoration: none;
+    color:var(--maincolor);
+    font-size: 24px;
+}
+nav ul li a{
+    color: var(--maincolor);
+    text-transform: uppercase;
+}
+nav ul li{
+    margin: 10px 0;
+}
+nav ul{
+    list-style: none;
+   
+}
+  
+.main-menu h4{
+    background:#023875;
+    color: white;
+    font-size: 18px;
+    line-height: 44px;
+    height: 44px;
+    text-align: center;
+}
+.container{
+    padding: 0;
+}
+@media screen and (min-width:650px){
+    .wrapper{
+        max-width: 960px;
+        position: relative;
+        padding: 18px;
+        background:white;
+        
+    }
+    .container{
+      
+        background-color: #f5eec0;
+        
+    }
+.wrapper::before{
+    position: absolute;
+    top:-23px;
+    left: 0;
+    content: "";
+    height: 46px;
+    width: 100%;
+    background: #023875;
+    border-radius: 4px;
+    
+}
+.wrapper::after{
+    position: absolute;
+    bottom:-23px;
+    left: 0;
+    content: "© Банкетный теплоход КолесовЪ";
+    height: 46px;
+    width: 100%;
+    background: #023875;
+    border-radius: 4px;
+    color: white;
+}
+header {
+    flex-direction: row;
+}
+.logo-name{
+    margin-right: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.main-menu{
+    order: 1;
+    margin-left: 35px;
+    min-width:300px ;
+}
+nav {
+    margin-left: 15px;
+}
+    
+}
+@media screen and (min-width:930px){
+    .container{
+        padding: 50px 193px;
+    }
+}
